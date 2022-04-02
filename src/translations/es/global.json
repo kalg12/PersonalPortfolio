@@ -9,6 +9,9 @@
         "profesion":"Desarrollador Web Full Stack"
     },
     "acerca":{
-        "title":"Acerca de mi"
+        "title":"Acerca de mi",
+        "descripcion":"Soy un desarrollador web full stack con experiencia en desarrollo de aplicaciones web. Me especializo en desarrollo de aplicaciones web con tecnologías como HTML5, CSS3, JavaScript, MySQL, Bootstrap, NodeJS, Express, MongoDB, Git, y Heroku.",
+        "objetivo":"Mi objetivo profesional como desarrollador",
+        "objetivo-2":"es transmitir los conocimientos que tengo e impulsar a otros a emprender este camino."
     }
 }

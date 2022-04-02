@@ -7,16 +7,16 @@ const Portada = () => {
 const [t] = useTranslation("global");
   return (
     <>
-    <section class="section-image">
-        <div class="img-overlay">
-            <div class="img-overlay-content">
+    <section className="section-image">
+        <div className="img-overlay">
+            <div className="img-overlay-content">
                 <div>
-                    <h1 class="tracking-in-expand">Kevin Luciano</h1>
+                    <h1 className="tracking-in-expand">Kevin Luciano</h1>
                 </div>
                 <div>
-                    <h2 class="text-focus-in">{t("portada.profesion")}</h2>
+                    <h2 className="text-focus-in">{t("portada.profesion")}</h2>
                 </div>
-                <a class="arrow-down" href="#about"><i class="fas fa-angle-double-down"></i></a>
+                <a className="arrow-down" href="#about"><i className="fas fa-angle-double-down"></i></a>
             </div>
         </div>
     </section>
