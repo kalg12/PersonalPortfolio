@@ -1,0 +1,14 @@
+{
+    "header":{
+        "inicio":"Home",
+        "acerca-de":"About me",
+        "proyectos":"Projects",
+        "descargar-cv":"Download CV"
+    },
+    "portada":{
+        "profesion":"Developer Web Full Stack"
+    },
+    "acerca":{
+        "title":"About me"
+    }
+}

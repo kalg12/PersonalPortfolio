@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+/* Intro Section */
+
+.section-image {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+  }
+
+  .img-overlay {
+    width: 100%;
+    height: 100vh;
+    background: #2c2b2b;
+    opacity: 0.9;
+    z-index: 2;
+  }
+
+  .img-overlay-content {
+    color: white;
+    font-size: 2rem;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 3;
+  }
+
+  .img-overlay-content h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #E49119;
+  }
+
+  .img-overlay-content h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  .heartbeat {
+    -webkit-animation: heartbeat 1.9s ease-in-out infinite both;
+    animation: heartbeat 1.9s ease-in-out infinite both;
+  }
+
+  .arrow-down {
+    color: #E49119;
+  }
+
+  /* Intro Section */
+
+  /*  About Section */
+
+.section-about {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-content {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-content h1{
+  margin: 0 0 20px 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #E49119;
+}
+
+.about-content p {
+  text-align: justify;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 50px;
+}
+.profile-image {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+
+.mexican-flag {
+  width: 14px;
+  height: 12px;
+}
+
+.fa-hand-peace{
+  color:#E49119;
+  font-weight: 600 !important;
+}
+
